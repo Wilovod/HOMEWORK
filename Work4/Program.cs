@@ -1,12 +1,7 @@
-﻿int a = 2;
-int b = 3;
-int c = 7;
+﻿// Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
-int max = a;
+// 5 -> 2, 4
+// 8 -> 2, 4, 6, 8
 
-if (a > max) max = a;
-if (b > max) max = b;
-if (c > max) max = c;
 
-Console.Write("max = ");
-Console.WriteLine(max);
+

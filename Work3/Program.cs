@@ -1,16 +1,22 @@
-﻿int a = -9;
-int b = -3;
+﻿// Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
-int max = a;
-int min = a;
+// 4 -> да
+// -3 -> нет
+// 7 -> нет
 
-if (a > max) max = a;
-if (b > max) max = b;
-if (a < min) min = a;
-if (b < min) min = b;
 
-Console.Write("max = ");
-Console.WriteLine(max);
+int a;
 
-Console.Write("min = ");
-Console.WriteLine(min);
+Console.Write("Введите число ");
+a = Convert.ToInt32(Console.ReadLine());
+
+
+        if (a % 2 == 0)
+
+    {
+        Console.WriteLine("четное");
+    }
+
+ else
+
+       Console.WriteLine("не четное");

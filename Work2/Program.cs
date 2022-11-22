@@ -1,16 +1,29 @@
-﻿int a = 2;
-int b = 10;
+﻿// Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
-int max = a;
-int min = a;
+// 2, 3, 7 -> 7
+// 44 5 78 -> 78
+// 22 3 9 -> 22
 
-if (a > max) max = a;
-if (b > max) max = b;
-if (a < min) min = a;
-if (b < min) min = b;
+
+Console.Write("Введите NumberOne ");
+int NumberOne = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите NumberTwo ");
+int NumberTwo = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите NumberThree ");
+int NumberThree = Convert.ToInt32(Console.ReadLine());
+
+
+int max = NumberOne;
+
+
+if (NumberOne > max) max = NumberOne;
+if (NumberTwo > max) max = NumberTwo;
+if (NumberThree > max) max = NumberThree;
+
 
 Console.Write("max = ");
 Console.WriteLine(max);
 
-Console.Write("min = ");
-Console.WriteLine(min);
+

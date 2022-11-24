@@ -26,5 +26,3 @@ else
     {
          Console.WriteLine("number_1 равен number_2");
     }
-
-

@@ -18,7 +18,6 @@ int NumberThree = Convert.ToInt32(Console.ReadLine());
 int max = NumberOne;
 
 
-if (NumberOne > max) max = NumberOne;
 if (NumberTwo > max) max = NumberTwo;
 if (NumberThree > max) max = NumberThree;
 

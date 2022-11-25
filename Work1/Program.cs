@@ -17,12 +17,11 @@ int number_2 = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("number_1 больше");
     }
 
-else
-
-   Console.WriteLine("number_2 больше");
-
-     if (number_1 == number_2)
-
+   else if (number_1 == number_2)
     {
-         Console.WriteLine("number_1 равен number_2");
+        Console.WriteLine("number_1 равен number_2");
     }
+
+    else
+
+        Console.WriteLine("number_2 больше");
